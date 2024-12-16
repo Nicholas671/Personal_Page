@@ -42,7 +42,7 @@ h3 {
 
 .main-content {
     border: 1px solid black;
-    width: 75%;
+    width: 50%;
     margin: 0 auto;
     background-color: rgba(145, 87, 87, 0.92);
     padding: 10px 60px 45px;
@@ -53,7 +53,6 @@ h3 {
     color: rgb(255, 188, 161);
     text-shadow: 1px 1px 2px red;
     font-weight: 300;
-    margin-bottom: 10px;
     margin-left: 3%;
 }
 
@@ -64,12 +63,25 @@ h3 {
 }
 
 .main-content section h3 {
-
     font-size: 32px;
     font-weight: 400;
     text-shadow: 1px 1px 2px red;
 }
 
+.section-content {
+    padding: 5px;
+}
+
+.section-content img {
+    float: right;
+    margin-left: 10px;
+
+}
+
 section a {
     color: black;
+}
+
+.section-content p {
+    padding: 7px 2px 10px;
 }
