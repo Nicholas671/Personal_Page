@@ -5,7 +5,7 @@
 }
 
 body {
-    background: no-repeat center/100% url(./images/pexels-anntarazevich-6937461.jpg);
+    background: center/100% url(./images/pexels-anntarazevich-6937461.jpg);
 }
 
 .persistent-header {
@@ -41,6 +41,7 @@ h3 {
     background-color: rgba(145, 87, 87, 0.92);
     padding: 10px 60px 45px;
     font-weight: 500;
+
 }
 
 .main-content h2 {

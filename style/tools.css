@@ -5,7 +5,7 @@
 }
 
 body {
-    background: no-repeat center/100% url(../images/pexels-anntarazevich-6937461.jpg);
+    background: center/100% url(../images/pexels-anntarazevich-6937461.jpg);
 }
 
 .persistent-header {
@@ -42,11 +42,12 @@ h3 {
 
 .main-content {
     border: 1px solid black;
-    width: 50%;
+    width: 40%;
     margin: 0 auto;
     background-color: rgba(145, 87, 87, 0.92);
     padding: 10px 60px 45px;
     font-weight: 500;
+
 }
 
 .main-content h2 {
@@ -55,6 +56,7 @@ h3 {
     font-weight: 300;
     margin-left: 3%;
 }
+
 
 .main-content section hr {
     width: 90%;
@@ -66,10 +68,12 @@ h3 {
     font-size: 32px;
     font-weight: 400;
     text-shadow: 1px 1px 2px red;
+
 }
 
 .section-content {
-    padding: 5px;
+    margin-top: 5%;
+    margin-bottom: 10%;
 }
 
 .section-content img {
@@ -83,17 +87,17 @@ section a {
 }
 
 .section-content p {
-    padding: 7px 2px 10px;
+    padding: 0px 10px 10px;
 }
 
 section:nth-of-type(2) .section-content img {
     float: left;
     margin-left: 0;
-    margin-right: 10px;
+
 }
 
 section:nth-of-type(4) .section-content img {
     float: left;
     margin-left: 0;
-    margin-right: 10px;
+    margin-right: 2%;
 }
