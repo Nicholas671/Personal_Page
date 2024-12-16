@@ -20,9 +20,6 @@ body {
 
 }
 
-p {
-    text-indent: 2%;
-}
 
 a,
 h1,
@@ -44,6 +41,7 @@ h3 {
     border: 1px solid black;
     width: 40%;
     margin: 0 auto;
+    margin-top: 3vh;
     background-color: rgba(145, 87, 87, 0.92);
     padding: 10px 60px 45px;
     font-weight: 500;
@@ -55,12 +53,15 @@ h3 {
     font-weight: 300;
     margin-bottom: 10px;
     margin-left: 3%;
+
 }
 
 .main-content section hr {
     width: 90%;
     margin: 0 auto;
     border-color: red;
+    margin-bottom: 2%;
+
 }
 
 .main-content section h3 {
@@ -68,4 +69,9 @@ h3 {
     font-size: 32px;
     font-weight: 400;
     text-shadow: 1px 1px 2px red;
+}
+
+.section-content p {
+    text-indent: 2%;
+    margin-bottom: 2%;
 }

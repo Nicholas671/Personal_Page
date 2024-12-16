@@ -36,8 +36,9 @@ h3 {
 
 .main-content {
     border: 1px solid black;
-    width: 50%;
+    width: 40%;
     margin: 0 auto;
+    margin-top: 3vh;
     background-color: rgba(145, 87, 87, 0.92);
     padding: 10px 60px 45px;
     font-weight: 500;
@@ -73,10 +74,12 @@ h3 {
     margin: 5px;
     margin-left: 0;
     line-height: 1;
+    height: 2vh;
 }
 
 .section-content img {
     float: right;
     margin-left: 10px;
+    margin-top: 4vh;
 
 }
