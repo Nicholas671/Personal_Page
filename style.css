@@ -52,6 +52,8 @@ h3 {
     margin: 1em auto;
     padding: 1em;
     background: rgba(238, 114, 114, 0.169);
+    border: 2px solid black;
+    box-shadow: 0 0 12px -2px rgb(237, 25, 25);
 }
 
 .main-content h2 {
@@ -123,11 +125,11 @@ h3 {
 
 .home img {
     width: 25em;
-    marg
+
 }
 
 .home p {
-    font-size: 28px !important;
+    font-size: 30px;
     text-indent: 10px;
 }
 
@@ -237,6 +239,25 @@ margin-left: 3%;*/
 
 
 /* Contact Page CSS */
+
+
+form {
+    font-size: 25px;
+    max-width: 720px;
+    margin: auto;
+}
+
+input {
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+}
+
+textarea {
+    width: 100%;
+    font-size: 15px;
+}
+
 /* Scaling*/
 @media (max-width: 500px) {
     .persistent-header {
