@@ -1,1 +1,0 @@
-alert("These are non - paid endorsements. I just really like using these things when cooking");

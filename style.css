@@ -14,6 +14,7 @@ body {
     color: rgb(255, 188, 161);
     text-shadow: 1px 1px 2px rgb(0, 0, 0);
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
@@ -44,6 +45,7 @@ h3 {
     background-color: rgba(145, 87, 87, 0.92);
     /*padding: 10px 60px 45px;*/
     font-weight: 500;
+
 
 }
 
@@ -115,7 +117,7 @@ h3 {
 }
 
 .home .section-image p {
-    font-size: 80px !important;
+    font-size: 80px;
     font-weight: 400;
     text-shadow: 1px 1px 2px red;
     margin-left: 10px;
@@ -150,6 +152,7 @@ h3 {
     margin-left: 0;
     line-height: 1;
     height: 2vh;
+
 }
 
 .recipes .section-content img {
@@ -264,21 +267,48 @@ textarea {
         flex-wrap: wrap;
     }
 
-    .tools .persistent-header {
-        flex-wrap: wrap;
-    }
-
-    .tools .main-content {
+    .main-content {
         width: 80vw;
     }
 
-    .tools .main-content section {
-        width: 100%;
+    .section-content p {
+
+        font-size: 12px;
+    }
+
+    .home img {
+        width: 15em;
 
     }
 
-    .tools .section-content p {
+    .home .section-image {
+        justify-content: space-evenly;
+        display: flex;
+        flex-direction: row;
+        width: calc(100% - 2em);
+        margin: 1em auto;
+        padding: 1em;
+        background: rgba(238, 114, 114, 0.169);
+        display: flex;
+        flex-wrap: wrap;
 
-        height: 30vh;
+    }
+
+    .home .section-image p {
+        font-size: 80px;
+        font-weight: 400;
+        text-shadow: 1px 1px 2px red;
+        margin-left: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .home p {
+        font-size: 20px;
+        text-indent: 10px;
+    }
+
+    li {
+        font-size: 12px;
     }
 }
