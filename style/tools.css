@@ -10,7 +10,6 @@ body {
 
 .persistent-header {
     background: center/100% url(../images/pexels-pixabay-266455.jpg);
-
     color: rgb(255, 188, 161);
     text-shadow: 1px 1px 2px rgb(0, 0, 0);
     display: flex;
@@ -20,9 +19,6 @@ body {
 
 }
 
-p {
-    text-indent: 2%;
-}
 
 a,
 h1,
@@ -40,9 +36,13 @@ h3 {
     display: inline-block;
 }
 
+p {
+    text-indent: 2%;
+}
+
 .main-content {
     border: 1px solid black;
-    width: 40%;
+    width: 1000px;
     margin: 0 auto;
     margin-top: 3vh;
     background-color: rgba(145, 87, 87, 0.92);
@@ -61,7 +61,7 @@ h3 {
 
 
 .main-content section hr {
-    width: 90%;
+    width: 800px;
     margin: 0 auto;
     border-color: red;
 }
@@ -74,14 +74,14 @@ h3 {
 }
 
 .section-content {
-    margin-top: 5%;
+    margin-top: 5px;
     margin-bottom: 10%;
 }
 
 .section-content img {
     float: right;
     margin-left: 10px;
-    margin-top: 5vh;
+    margin-top: 3vh;
 
 }
 
