@@ -6,11 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../style.css">
-
-
 </head>
 
-<body class="contact">
+<body class="home">
     <header class="persistent-header">
         <h1 class="logo"><a href="../index.html">Not Really a Chef</a></h1>
         <nav class="main-nav">
@@ -24,41 +22,32 @@
         </nav>
     </header>
 
-    <main class="main-content">
-        <form id="form">
-
+    <body class="contact">
+        <main class="main-content">
             <div class="container">
                 <section class="section">
                     <h3 style="text-align: center;">Contact Me!</h3>
+                    <form class="form">
+                        <div>
+                            <label for="name">Name:</label><br />
+                            <input id="name" type="text" name="name" />
+                        </div>
 
-                    <div>
-                        <label for="name">Name:</label><br />
-                        <input id="name" type="text" name="name" />
-                    </div>
+                        <div>
+                            <label for="email">Email:</label><br />
+                            <input id="email" type="email" name="email" />
+                        </div>
+                        <div>
+                            <label for="message">Message:</label><br />
+                            <textarea id="message" name="message" rows="6"
+                                cols="50"></textarea>
+                        </div>
 
-                    <div>
-                        <label for="email">Email:</label><br />
-                        <input id="email" type="email" name="email" />
-                    </div>
-                    <div>
-                        <label for="message">Message:</label><br />
-                        <textarea id="message" name="message" rows="6"
-                            cols="50"></textarea>
-                    </div>
-
-                    <button type="submit" id="submit">Submit</button>
-        </form>
-
-
-        </section>
-
-        </div>
-        <a href="./html/contact.html" class="contact-link">Contact</a>
-        <script src="../script.js"></script>
-
-
-    </main>
-
-</body>
-
-</html>
+                        <button type="submit" id="submit">Submit</button>
+                    </form>
+                </section>
+            </div>
+            <a href="./contact.html" class="contact-link">Contact</a>
+            <script src="../script.js"></script>
+        </main>
+    </body>
