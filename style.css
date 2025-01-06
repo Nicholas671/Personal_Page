@@ -273,7 +273,7 @@ textarea {
 
     .section-content p {
 
-        font-size: 12px;
+        font-size: 20px;
     }
 
     .home img {
@@ -295,7 +295,7 @@ textarea {
     }
 
     .home .section-image p {
-        font-size: 65px;
+        font-size: 25px;
         font-weight: 400;
         text-shadow: 1px 1px 2px red;
         margin-left: 10px;
@@ -304,11 +304,11 @@ textarea {
     }
 
     .home p {
-        font-size: 22px;
+        font-size: 18px;
         text-indent: 10px;
     }
 
     li {
-        font-size: 12px;
+        font-size: 16px;
     }
 }
