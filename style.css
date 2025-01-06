@@ -9,8 +9,23 @@ body {
     margin: 0;
 }
 
+.contact-link {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000;
+}
+
 .logo a {
     color: rgb(255, 188, 161);
+}
+
+.logo a:hover {
+    color: rgb(203, 0, 0);
 }
 
 .persistent-header {
@@ -253,9 +268,11 @@ margin-left: 3%;*/
 
 
 form {
+
+    margin: 0 auto;
     font-size: 25px;
     max-width: 720px;
-    margin: auto;
+
 }
 
 input {
