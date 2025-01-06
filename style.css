@@ -9,6 +9,10 @@ body {
     margin: 0;
 }
 
+.logo a {
+    color: rgb(255, 188, 161);
+}
+
 .persistent-header {
     background: center/100% url(./images/pexels-pixabay-266455.jpg);
     color: rgb(255, 188, 161);
@@ -30,6 +34,10 @@ h3 {
 
 .links-list a {
     color: rgb(255, 188, 161);
+}
+
+.links-list a:hover {
+    color: rgb(203, 0, 0);
 }
 
 .links-list li {
